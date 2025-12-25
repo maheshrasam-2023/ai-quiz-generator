@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,40 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# AI Quiz Generator (Laravel)
+
+An AI-powered multiple-choice quiz generator built with Laravel.  
+The application generates quizzes based on a topic using the Gemini API.
+
+---
+
+## Features
+
+- Generate MCQs dynamically based on topic
+- AI-powered question generation (Gemini API)
+- Required questions (no partial submission)
+- Score calculation with explanations
+- Clean MVC architecture (SOLID principles)
+
+---
+
+## Tech Stack
+
+- Laravel 10+
+- PHP 8+
+- Gemini API
+- Wikipedia context injection
+- Blade templates
+
+---
+
+## Setup Instructions
+
+```bash
+git clone https://github.com/YOUR_USERNAME/ai-quiz-generator.git
+cd ai-quiz-generator
+composer install
+cp .env.example .env
+php artisan serve
+>>>>>>> 786d21b356d3e20fd51d173326708919827acb8f
